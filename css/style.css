@@ -15,11 +15,11 @@ body {
 
 /* LEFT SIDE */
 
-.register_form {
+.registerForm {
   display: flex;
   min-height: 100vh;
 }
-.left_container {
+.leftContainer {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -29,7 +29,7 @@ body {
 .logo {
   font-size: 20px;
 }
-.main_form {
+.mainForm {
   margin-top: 102px;
   margin-left: 90px;
 }
@@ -50,7 +50,7 @@ body {
   font-weight: 600;
 }
 
-.input_container {
+.inputContainer {
   display: flex;
   flex-direction: column;
   margin-top: 52px;
@@ -81,34 +81,34 @@ input::placeholder {
   bottom: 6px;
 }
 
-.email_input:invalid {
+.emailInput:invalid {
   border-bottom: 1px solid red;
 }
 
-.password_input:invalid {
+.passwordInput:invalid {
   border-bottom: 1px solid red;
 }
 
-.email_input:not(:focus):invalid {
+.emailInput:not(:focus):invalid {
   border-bottom: 1px solid var(--dark_blue);
 }
 
-.password_input:not(:focus):invalid {
+.passwordInput:not(:focus):invalid {
   border-bottom: 1px solid var(--dark_blue);
 }
 
-.input_text {
+.inputText {
   color: var(--gray);
   font-size: 13px;
   font-weight: 500;
 }
 
-.email_svg {
+.emailSvg {
   position: absolute;
   bottom: 0;
 }
 
-.password_svg {
+.passwordSvg {
   position: absolute;
   top: 27px;
 }
@@ -152,7 +152,7 @@ input::placeholder {
 
 /* RIGHT SIDE */
 
-.right_container {
+.rightContainer {
   background-color: var(--dark_blue);
   width: 935px;
   height: 100vh;
@@ -163,7 +163,7 @@ input::placeholder {
   flex-direction: column;
 }
 
-.right_text_container {
+.rightTextContainer {
   margin-top: 90px;
   padding-right: 451px;
 }
