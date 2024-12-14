@@ -1,0 +1,136 @@
+.registerForm {
+  display: flex;
+  min-height: 100vh;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 100px;
+  padding: 45px;
+}
+
+.logo {
+  font-size: 20px;
+}
+.mainForm {
+  margin-top: 102px;
+  margin-left: 90px;
+}
+
+.signIn {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.registerHere {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 429px;
+  position: relative;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--dark_blue);
+  margin-top: 7px;
+  height: 24px;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: var(--dark_blue);
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  bottom: 6px;
+}
+
+.emailInput:invalid {
+  border-bottom: 1px solid red;
+}
+
+.passwordInput:invalid {
+  border-bottom: 1px solid red;
+}
+
+.emailInput:not(:focus):invalid {
+  border-bottom: 1px solid var(--dark_blue);
+}
+
+.passwordInput:not(:focus):invalid {
+  border-bottom: 1px solid var(--dark_blue);
+}
+
+.inputText {
+  color: var(--gray);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.emailSvg {
+  position: absolute;
+  bottom: 0;
+}
+
+.passwordSvg {
+  position: absolute;
+  top: 27px;
+}
+
+.password {
+  margin-top: 49px;
+}
+
+.button {
+  padding: 14px 191px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 32px;
+  margin-top: 95px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.continueText {
+  color: var(--white_gray);
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 39px;
+  margin-left: 150px;
+}
+
+.social {
+  margin-left: 125px;
+}
+
+.social a:not(:last-child) {
+  margin-right: 23px;
+}

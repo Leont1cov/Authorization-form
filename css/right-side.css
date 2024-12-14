@@ -1,0 +1,26 @@
+.rightContainer {
+  background-color: var(--dark_blue);
+  width: 935px;
+  height: 100vh;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rightTextContainer {
+  margin-top: 90px;
+  padding-right: 451px;
+}
+
+.heading {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 600;
+}
+.lorem {
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--white);
+}
