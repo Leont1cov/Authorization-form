@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="register_form">
+      <div class="left_container container">
+        <h3 class="logo">Your Logo</h3>
+        <div class="main_form">
+          <div class="text_container">
+            <h2 class="signIn">Sign in</h2>
+            <p class="paragraph">
+              If you don’t have an account register <br />
+              You can
+              <a class="registerHere" href="#">Register here !</a>
+            </p>
+          </div>
+          <form action="">
+            <div class="input_container">
+              <div class="email input">
+                <label class="input_text" for="">Email</label>
+                <label class="svg email_svg" for=""
+                  ><img src="src/image/email.svg" alt=""
+                /></label>
+                <input
+                  class="email_input"
+                  type="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </div>
+
+              <div class="password input">
+                <label class="input_text" for="">Password</label>
+                <label class="svg password_svg" for=""
+                  ><img src="src/image/password.svg" alt=""
+                /></label>
+                <input
+                  class="password_input"
+                  type="password"
+                  placeholder="Enter your Password"
+                  minlength="8"
+                  title="Please enter your password"
+                />
+              </div>
+            </div>
+            <button class="button">Login</button>
+            <p class="continueText">or continue with</p>
+            <div class="social">
+              <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                target="_blank"
+                ><img class="facebook" src="src/image/facebook.svg" alt=""
+              /></a>
+              <a href="https://www.apple.com/" target="_blank"
+                ><img class="apple" src="src/image/apple.svg" alt=""
+              /></a>
+              <a href="https://www.google.co.uk/" target="_blank"
+                ><img class="google" src="src/image/google.svg" alt=""
+              /></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="right_container">
+        <div class="image_container">
+          <img class="people" src="src/image/main_people.png" alt="" />
+        </div>
+        <div class="right_text_container">
+          <h1 class="heading">Sign in to name</h1>
+          <h3 class="lorem">Lorem Ipsum is simply</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
